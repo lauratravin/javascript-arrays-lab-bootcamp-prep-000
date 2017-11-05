@@ -24,3 +24,8 @@ function destructivelyRemoveFirstKitten(value){
   kittens.shift(value);
   return kittens
 }
+var kittens = ["Milo", "Otis", "Garfield"]
+function prependKitten(value){
+  newkittens = [...kittens,value];
+  return newkittens
+}
