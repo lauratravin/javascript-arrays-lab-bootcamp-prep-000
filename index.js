@@ -26,6 +26,6 @@ function destructivelyRemoveFirstKitten(value){
 }
 var kittens = ["Milo", "Otis", "Garfield"]
 function prependKitten(value){
-  newkittens = [...kittens,value];
+  var newkittens = [...kittens,value];
   return newkittens
 }
