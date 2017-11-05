@@ -30,12 +30,18 @@ function appendKitten(value){
   return newkittens
 }
 var kittens = ["Milo", "Otis", "Garfield"]
-function prependKitten(value){
+  function prependKitten(value){
   var newkittens = [value,...kittens];
   return newkittens
 }
 var kittens = ["Milo", "Otis", "Garfield"]
- function removeLastKitten(){
- var newkittens= kittens.slice(0, kittens.length-1);
- return newkittens
+     function removeLastKitten(){
+     var newkittens= kittens.slice(0, kittens.length-1);
+     return newkittens
+}
+var kittens = ["Milo", "Otis", "Garfield"]
+     function removeFirstKitten(){
+     var newkittens= kittens.slice(1, kittens.length+1);
+     return newkittens
+  
 }
